@@ -1,4 +1,3 @@
-```yaml
 # Name the Action
 name: Automation to build and push a container image
 # Define when the Action is run. This example is run when there is a push to the August-08-2024/ directory on the main branch.
@@ -42,4 +41,3 @@ jobs:
           # Provide the tags to apply to the image, this example uses the latest image tag 
           tags: |
             courtneywk/workshop-webapp:${{ steps.date.outputs.date }}
-```
